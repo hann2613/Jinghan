@@ -444,8 +444,16 @@ color: rgb(53, 53, 53);
 margin: 12px 0;
 }
 
+
+.field.error .item {
+  border-color: red;
+}
+
+
+
+
 .field .item::placeholder {
-  color: rgba(255, 255, 255, .3);
+  color: rgba(0, 0, 0,.5);
 }
 
 .field .error-txt {
@@ -453,7 +461,15 @@ margin: 12px 0;
   color: red;
   text-align: left;
   margin: -5px 0 10px;
+  display: none;
 }
+
+
+.field.error .error-txt {
+  display: block;
+}
+
+
 
 form .textarea-field .item {
   resize: none;

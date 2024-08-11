@@ -27,7 +27,7 @@
               id="name"
               class="item"
               autocomplete="off"
-            />
+            /><div class="error-txt">Full name can't be blank</div>
           </div>
           <div class="input-field field">
             <input
@@ -36,7 +36,7 @@
               id="email"
               class="item"
               autocomplete="off"
-            />
+            /><div class="error-txt email">Email can't be blank</div>
           </div>
         </div>
 
@@ -48,7 +48,7 @@
               id="phone"
               class="item"
               autocomplete="off"
-            />
+            /><div class="error-txt">Phone number can't be blank</div>
           </div>
           <div class="input-field field">
             <input
@@ -57,7 +57,7 @@
               id="subject"
               class="item"
               autocomplete="off"
-            />
+            /><div class="error-txt">Subject can't be blank</div>
           </div>
         </div>
 
@@ -80,4 +80,8 @@
       </form>
     </section>
   </body>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
 </html>
