@@ -25,23 +25,26 @@
             <h2>Jinghan Yang</h2>
             <p>Mobil Phone: +353 089 4776655</p>
             <p>Email: jinghann26@gmail.com</p>
+            <a href="#"><img src="linkedin.png" class="link"/></a>
           </div>
           <div class="front-right">
-              <h3>Welcome!</h3>
-              <div class="button">
-                <a href="#cv"><button class="front-btn">Resume</button></a>
-                <button class="front-btn">Projects</button>
-              </div>
-              <p class="description">
-                I'm a design and Development of Digital business graduate with
-                strong skills in database design and analysis and
-                front-end&back-end development.
-              </p>
-              <p class="description">Familiar with SAP and corporate organizational structures.</p>
-              <p class="description">
-                Seeking a role in front-end development or data analysis to
-                utilize my technical and business skills.
-              </p>
+            <h3>H E L L O !</h3>
+            <div class="button">
+              <a href="#cv"><button class="front-btn">Resume</button></a>
+              <a href="project.html"><button class="front-btn">Projects</button></a>
+            </div>
+            <p class="description">
+              I'm a design and Development of Digital business graduate with
+              strong skills in database design and analysis and
+              front-end & back-end development.
+            </p>
+            <p class="description">
+              Familiar with SAP and corporate organizational structures.
+            </p>
+            <p class="description">
+              Seeking a role in front-end development or data analysis to
+              utilize my technical and business skills.
+            </p>
           </div>
         </div>
       </section>
@@ -169,24 +172,24 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2024 Jinghan Yang - All rights reserved.</p>
+      <p class="footer-copyright">&copy; 2024 Jinghan Yang - All rights reserved.</p>
+      <div class="footer-contact">
       <p>Mobile Phone: +353 89 4776655</p>
       <p>Email: jinghann26@gmail.com</p>
       <p>
         <a href="#"><img src="linkedin.png" /></a>
       </p>
+    </div>
     </footer>
-    <script>
-      document
-        .getElementById("download")
-        .addEventListener("click", function () {
-          var a = document.createElement("a");
-          a.href = "CV-Jinghan_Yang.pdf";
-          a.download = "CV-Jinghan_Yang.pdf";
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-        });
-    </script>
   </body>
+  <script>
+    document.getElementById("download").addEventListener("click", function () {
+      var a = document.createElement("a");
+      a.href = "CV-Jinghan_Yang.pdf";
+      a.download = "CV-Jinghan_Yang.pdf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  </script>
 </html>
