@@ -7,7 +7,7 @@
 body,
 html {
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -70,7 +70,6 @@ main {
   margin-top: 60px;
   padding-bottom: 10px;
   margin-bottom: 0;
-
 }
 
 /*background*/
@@ -403,4 +402,75 @@ main {
 .skills-list li {
   margin-bottom: 5px;
   font-size: 14px;
+}
+
+
+
+/*---------Contact form --------------*/
+.contact {
+  margin-top: 150px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.contact h2{
+  font-size: 40px;
+  color: rgb(14, 14, 14);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.contact form {
+  width: 600px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+form .input-box {
+display:flex;
+justify-content: space-between;
+}
+
+.field .item {
+width: 100%;
+padding: 18px;
+background: transparent;
+border: 1px solid rgb(26, 26, 102);
+outline: none;
+border-radius: 5px;
+font-size: 16px;
+color: rgb(53, 53, 53);
+margin: 12px 0;
+}
+
+.field .item::placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+
+.field .error-txt {
+  font-size: 14px;
+  color: red;
+  text-align: left;
+  margin: -5px 0 10px;
+}
+
+form .textarea-field .item {
+  resize: none;
+}
+
+form .textarea-field .error-txt {
+  margin-top: -10px;
+}
+
+form button {
+  padding: 12px 32px;
+  background-color: rgb(55, 55, 206);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgb(55, 55, 206);
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
 }
