@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 body,
 html {
   height: 100%;
@@ -16,23 +14,23 @@ header {
   position: fixed;
   top: 0;
   z-index: 1000;
-  background-color: white;
   width: 100%;
+  background-color: aliceblue;
   border-bottom: 1px solid rgb(145, 145, 145);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 15px 20px;
 }
 
 header h1 {
   font-size: 35px;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 header nav {
-  display: flex;
-  gap: 25px;
+  gap: 20px;
+  flex-direction: row;
 }
 
 header a {
@@ -42,15 +40,20 @@ header a {
   margin-left: 20px;
   margin-right: 10px;
 }
-
+header a:hover {
+  text-decoration: underline;
+}
 footer {
   display: flex;
-  flex-direction: row;
-  padding: 25px 0;
+  flex-direction: column;
+  padding: 10px;
   align-content: center;
   text-align: center;
   background-color: rgb(255, 255, 255);
   justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
 }
 
 footer p {
@@ -60,13 +63,14 @@ footer p {
 footer img {
   width: 60px;
   height: auto;
-  margin: 0 auto;
+  margin-left: 10px;
 }
 
 main {
-  background-color: rgb(226, 244, 255);
-  margin-top: 50px;
+  margin-top: 60px;
+  padding-bottom: 10px;
   margin-bottom: 0;
+
 }
 
 /*background*/
@@ -74,72 +78,73 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   width: 100%;
-  padding: 0;
 }
 
 /*frontbox*/
 .front {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 35%;
-  max-width: 100%;
+  align-items: stretch;
+  width: 40%;
   margin: 0 auto;
   height: auto;
-  background-color: white;
+  background-color: rgb(255, 248, 237);
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  padding: 20px;
+  padding: 20px 25px;
+  overflow: hidden;
 }
 
 .front h2 {
   font-size: 30px;
 }
-.front-left p {
-  font-size: 13px;
-  margin-top: 5px;
-}
+
 .front h3{
   font-size: 20px;
-  justify-content: center;
   text-align: center;
 }
 
 .front-left,
 .front-right {
   flex: 1;
-  padding: 20px;
 }
 
 .front-left {
-  background-color: rgb(252, 238, 220);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  margin:25px 0 0 0;
+  background-color: rgb(255, 248, 237);
 }
-
+.front-left p {
+  font-size: 15px;
+  margin-top: 5px;
+}
 .front-right {
   background-color: white;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.profile {
+.front-right p {
+  font-size: 15px;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.profileimg {
   width: 80%;
   height: auto;
   border-radius: 50%;
-  margin: 10px 15px;
-}
-
-.box-content {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .description {
   font-size: 15px;
-  margin: 10px 0;
+  margin: 15px;
 }
 
 .button {
@@ -157,6 +162,7 @@ main {
   cursor: pointer;
   transition: background-color 0.3s;
   color: white;
+  font-size: 15px;
 }
 
 .front-btn:hover {
@@ -206,18 +212,18 @@ main {
   border-radius: 30px;
   border: 1px solid grey;
   padding: 10px 20px;
-  font-size: 12px;
+  font-size: 14px;
   background-color: rgb(55, 55, 206);
   color: white;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
   float: right;
   right: 25px;
 }
 
 .download-btn:hover {
-  background-color: rgb(122, 122, 122);
+  background-color: rgb(111, 155, 206);
   color: black;
 }
 
