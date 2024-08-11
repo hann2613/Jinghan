@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Jinghan's website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Jinghan Yang</h1>
+      <nav>
+        <strong><a href="index.html">About Me</a></strong>
+        <a href="project.html">Projects</a>
+        <a href="#cv">Resume</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="back">
+        <div class="front">
+          <div class="front-left">
+            <img src="jinghan.jpg" alt="profile" class="profile" />
+            <h2>Jinghan Yang</h2>
+            <p>Mobil Phone: +353 089 4776655</p>
+            <p>Email: jinghann26@gmail.com</p>
+          </div>
+          <div class="front-right">
+            <div class="box-content">
+              <h3>Welcome!</h3>
+              <div class="button">
+                <a href="#cv"><button class="front-btn">Resume</button></a>
+                <button class="front-btn">Projects</button>
+              </div>
+              <p class="description">
+                I'm a design and Development of Digital business graduate with
+                strong skills in database design and analysis and
+                front-end&back-end development.
+              </p>
+              <p>Familiar with SAP and corporate organizational structures.</p>
+              <p>
+                Seeking a role in front-end development or data analysis to
+                utilize my technical and business skills.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="cv" class="resume">
+        <div class="resume-header">
+          <h1>Resume</h1>
+          <button id="download" class="download-btn">Download my CV</button>
+        </div>
+        <div class="Education">
+          <h2>Education</h2>
+          <div class="education-entry">
+            <div class="education-date">
+              <p>2023.9 - 2024.8</p>
+            </div>
+            <div class="education-details">
+              <h3>University College Cork</h3>
+              <p>MSc in Design and Development of Digital Business</p>
+              <p class="location">Co. Cork, Ireland</p>
+              <div class="education-courses">
+                <ul>
+                  <li>
+                    Web Development (HTML, CSS, JavaScript, Vue.js, React.js,
+                    PHP)
+                  </li>
+                  <li>Software Development (Java, Android)</li>
+                  <li>Database Analysis and Design (SQL, ERD, ETL)</li>
+                  <li>Interaction Design (UX/UI Design)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-entry">
+            <div class="education-date">
+              <p>2014.9 - 2018.6</p>
+            </div>
+            <div class="education-details">
+              <h3>Hubei Engineering University</h3>
+              <p>BSc in Economics (International Economics and Trade)</p>
+              <p class="location">Xiaogan, China</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="work">
+          <h2>Work Experience</h2>
+          <div class="work-entry">
+            <div class="work-date">
+              <p>2021.11 - 2023.4</p>
+            </div>
+            <div class="work-details">
+              <h3>Ivoclar Vivadent(Shanghai) Trading</h3>
+              <p>HR Assistant</p>
+              <p class="location">Shanghai, China</p>
+              <div class="job-description">
+                <ul>
+                  <li>
+                    Managed HR data and processes in SAP, ensuring data accuracy
+                    and integrity.
+                  </li>
+                  <li>
+                    Coordinated with other teams to assist HR directors in
+                    performance management projects.
+                  </li>
+                  <li>
+                    Handled employee relations and maintained employment
+                    databases.
+                  </li>
+                  <li>
+                    Organized and executed the annual kick-off meeting and gala
+                    dinner, enhancing employee engagement.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="skills">
+          <h2>Skills</h2>
+          <div class="skills-entry">
+            <div class="skills-details">
+              <h3>Technical Skills</h3>
+              <div class="skills-list">
+                <ul>
+                  <li>
+                    Programming Languages: HTML, CSS, JavaScript, PHP, SQL, Java
+                  </li>
+                  <li>Tools: Power BI, Android Studio, SAP, Figma</li>
+                  <li>Other: ERD, UX/UI Design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-entry">
+            <div class="skills-details">
+              <h3>Soft Skills</h3>
+              <div class="skills-list">
+                <ul>
+                  <li>Data Analysis</li>
+                  <li>Creativity</li>
+                  <li>Problem-solving</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-entry">
+            <div class="skills-details">
+              <h3>Language</h3>
+              <div class="skills-list">
+                <ul>
+                  <li>English</li>
+                  <li>Mandarin</li>
+                  <li>Korean</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Jinghan Yang - All rights reserved.</p>
+      <p>Mobile Phone: +353 89 4776655</p>
+      <p>Email: jinghann26@gmail.com</p>
+      <p>
+        <a href="#"><img src="linkedin.png" /></a>
+      </p>
+    </footer>
+    <script>
+      document
+        .getElementById("download")
+        .addEventListener("click", function () {
+          var a = document.createElement("a");
+          a.href = "CV-Jinghan_Yang.pdf";
+          a.download = "CV-Jinghan_Yang.pdf";
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        });
+    </script>
+  </body>
+</html>
