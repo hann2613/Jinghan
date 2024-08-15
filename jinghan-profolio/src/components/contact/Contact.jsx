@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useRef} from "react";
+import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_voub3mi', 'template_j2zovw5', form.current, {
+        publicKey: 'PvniwPEB3CXtpJ_qW',
+      })
+      e.target.reset()
+  };
   return (
     <section className="contact section" id="contact">
       <h2 className="section_title">Get in Touch</h2>
@@ -35,7 +47,9 @@ const Contact = () => {
 
         <div className="contact_content">
           <h3 className="contact_title">Write me your message here</h3>
-          <form className="contact_form">
+          
+
+          <form ref={form} onsubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">
               <label className="contact_form-tag">Email</label>
               <input
@@ -66,7 +80,7 @@ const Contact = () => {
                 placeholder="Write your message here"
               ></textarea>
             </div>
-            <button href="#contact" className="button button--flex">
+            <button href="" className="button button--flex">
         Send Message
         <svg
           class="button__icon"
