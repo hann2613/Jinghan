@@ -6,6 +6,8 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
+import Certification from './components/certification/Certification';
+import Contact from './components/contact/Contact';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <Skills />
       <Services />
       <Qualification />
+      <Certification />
+      <Contact />
     </main>
 
     </>

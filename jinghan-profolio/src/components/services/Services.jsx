@@ -43,7 +43,7 @@ const Services = () => {
                 X
               </i>
 
-              <h3 className="services_modal-title"></h3>
+              <h3 className="services_modal-title">xxx</h3>
 
               <p className="services_modal-description">xxx</p>
 
@@ -100,7 +100,7 @@ const Services = () => {
                 X
               </i>
 
-              <h3 className="services_modal-title"></h3>
+              <h3 className="services_modal-title">qqqqq</h3>
 
               <p className="services_modal-description">xxx</p>
 
