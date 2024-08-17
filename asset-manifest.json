@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Jinghan/static/css/main.856b6981.css",
+    "main.js": "/Jinghan/static/js/main.8228f7c2.js",
+    "static/js/453.9a0740a9.chunk.js": "/Jinghan/static/js/453.9a0740a9.chunk.js",
+    "static/media/CV-Jinghan.pdf": "/Jinghan/static/media/CV-Jinghan.8420bacd9ecb4f25cbf5.pdf",
+    "static/media/jinghan.jpg": "/Jinghan/static/media/jinghan.710ab2ea5ae371a38cbf.jpg",
+    "static/media/profile.jpg": "/Jinghan/static/media/profile.f7377e053a5b57327cb1.jpg",
+    "static/media/testimonial3.png": "/Jinghan/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/work2.jpg": "/Jinghan/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/testimonial2.png": "/Jinghan/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/work4.jpg": "/Jinghan/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/Jinghan/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/Jinghan/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/Jinghan/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/testimonial1.png": "/Jinghan/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/Jinghan/index.html",
+    "main.856b6981.css.map": "/Jinghan/static/css/main.856b6981.css.map",
+    "main.8228f7c2.js.map": "/Jinghan/static/js/main.8228f7c2.js.map",
+    "453.9a0740a9.chunk.js.map": "/Jinghan/static/js/453.9a0740a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.856b6981.css",
+    "static/js/main.8228f7c2.js"
+  ]
+}
