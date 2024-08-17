@@ -97,7 +97,6 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services_modal-close"
               >
-                X
               </i>
 
               <h3 className="services_modal-title">qqqqq</h3>
@@ -154,7 +153,6 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services_modal-close"
               >
-                X
               </i>
 
               <h3 className="services_modal-title">Data Analyst</h3>

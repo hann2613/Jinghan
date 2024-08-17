@@ -27,7 +27,7 @@ const Header = () => {
                   activeNav === "#home" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil- nav_icon"></i>Home
+                <i className="uil uil-estate nav_icon"></i>Home
               </a>
             </li>
             <li className="nav_item">
@@ -38,7 +38,7 @@ const Header = () => {
                   activeNav === "#About" ? "nav_link active-link" : "nav_link"
                 }
               >
-                <i className="uil uil- nav_icon"></i>About
+                <i className="uil uil-user nav_icon"></i>About
               </a>
             </li>
             <li className="nav_item">
@@ -46,7 +46,7 @@ const Header = () => {
                 className={
                   activeNav === "#skills" ? "nav_link active-link" : "nav_link"
                 }>
-                <i className="uil uil- nav_icon"></i>Skills
+                <i className="uil uil-file-alt nav_icon"></i>Skills
               </a>
             </li>
             <li className="nav_item">
@@ -54,7 +54,16 @@ const Header = () => {
                 className={
                   activeNav === "#services" ? "nav_link active-link" : "nav_link"
                 }>
-                <i className="uil uil- nav_icon"></i>Services
+                <i className="uil uil-briefcase-alt nav_icon"></i>Services
+              </a>
+            </li>
+
+            <li className="nav_item">
+              <a href="#portfolio"  onClick={() => setActiveNav("#portfolio")}
+                className={
+                  activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"
+                }>
+                <i className="uil uil-scenery nav_icon"></i>Portfolio
               </a>
             </li>
 
@@ -63,7 +72,7 @@ const Header = () => {
                 className={
                   activeNav === "#contact" ? "nav_link active-link" : "nav_link"
                 }>
-                <i className="uil uil- nav_icon"></i>Contact Me!
+                <i className="uil uil-message nav_icon"></i>Contact Me!
               </a>
             </li>
           </ul>
@@ -72,12 +81,11 @@ const Header = () => {
             className="uil uil-times nav_close"
             onClick={() => showMenu(!Toggle)}
           >
-            close
           </i>
         </div>
 
         <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="til uil-apps">more</i>
+          <i className="til uil-apps"></i>
         </div>
       </nav>
     </header>

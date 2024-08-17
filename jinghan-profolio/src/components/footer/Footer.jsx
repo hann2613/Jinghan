@@ -9,13 +9,18 @@ const Footer = () => {
 
         <ul className="footer_list">
           <li>
-            <a href="#about" className="footer_link">
+            <a href="#About" className="footer_link">
               About
             </a>
           </li>
           <li>
-            <a href="#service" className="footer_link">
+            <a href="#services" className="footer_link">
               Services
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" className="footer_link">
+              Portofolio
             </a>
           </li>
           <li>
@@ -26,14 +31,11 @@ const Footer = () => {
         </ul>
 
         <div className="footer_social">
-          <a href="#" className="footer_social-link" target="_blank">
-            instagram<i class="bx bxl-instagram"></i>
+          <a href="https://github.com/hann2613" className="footer_social-link" target="_blank">
+          <i class="bx bxl-github"></i>
           </a>
-          <a href="#" className="footer_social-link" target="_blank">
-            Github<i class="bx bxl-github"></i>
-          </a>
-          <a href="#" className="footer_social-link" target="_blank">
-            Linkedin<i class="bx bxl-linkedin"></i>
+          <a href="https://linkedin.com/in/jinghan-yang-30b74b289" className="footer_social-link" target="_blank">
+           <i class="bx bxl-linkedin"></i>
           </a>
         </div>
 

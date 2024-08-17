@@ -18,10 +18,10 @@ const About = () => {
           <p className="about_description">
             Front-end Developer, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="button button-flex">
             Download CV
             <svg
-              class="button__icon"
+              class="button_icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
