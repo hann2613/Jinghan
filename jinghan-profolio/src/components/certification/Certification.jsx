@@ -34,11 +34,12 @@ const Certification = () => {
         }}
         modules={[Pagination]}
       >
-        {Data.map(({ id, image, title, description }) => {
+        {Data.map(({ id, image, title, link, description }) => {
           return (
             <SwiperSlide className="testimonial_card" key={id}>
               <img src={image} alt="" className="testmonial_img" />
               <h3 className="testmonial_name">{title}</h3>
+              <h4 className="testmonial_name">{link}</h4>
               <p className="testimonial_description">{description}</p>
             </SwiperSlide>
           );
