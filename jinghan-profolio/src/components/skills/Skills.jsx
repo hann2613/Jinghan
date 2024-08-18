@@ -11,8 +11,8 @@ const Skills = () => {
       <span className="section_subtitle">My technical skills</span>
 
       <div className="skills_container container grid">
-        <Frontend />
         <Database />
+        <Frontend />
         <Backend />
       </div>
     </section>
