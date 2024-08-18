@@ -49,6 +49,17 @@ const Header = () => {
                 <i className="uil uil-file-alt nav_icon"></i>Skills
               </a>
             </li>
+
+            
+            <li className="nav_item">
+              <a href="#portfolio"  onClick={() => setActiveNav("#portfolio")}
+                className={
+                  activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"
+                }>
+                <i className="uil uil-scenery nav_icon"></i>Projects
+              </a>
+            </li>
+
             <li className="nav_item">
               <a href="#services"  onClick={() => setActiveNav("#services")}
                 className={
@@ -58,21 +69,13 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav_item">
-              <a href="#portfolio"  onClick={() => setActiveNav("#portfolio")}
-                className={
-                  activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"
-                }>
-                <i className="uil uil-scenery nav_icon"></i>Portfolio
-              </a>
-            </li>
 
             <li className="nav_item">
               <a href="#contact"  onClick={() => setActiveNav("#contact")}
                 className={
                   activeNav === "#contact" ? "nav_link active-link" : "nav_link"
                 }>
-                <i className="uil uil-message nav_icon"></i>Contact Me!
+                <i className="uil uil-message nav_icon"></i>Contact Me
               </a>
             </li>
           </ul>

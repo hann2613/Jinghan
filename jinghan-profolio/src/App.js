@@ -6,7 +6,6 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Work from "./components/work/Work";
-import Qualification from "./components/qualification/Qualification";
 import Certification from "./components/certification/Certification";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -24,10 +23,9 @@ const App = () => {
         <Home />
         <About />
         <Skills />
-        <Services />
         <Work />
-        <Qualification />
         <Certification />
+        <Services />
         <Contact />
       </main>
 
