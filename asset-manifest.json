@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/Jinghan/static/css/main.856b6981.css",
-    "main.js": "/Jinghan/static/js/main.8228f7c2.js",
+    "main.css": "/Jinghan/static/css/main.1daac46d.css",
+    "main.js": "/Jinghan/static/js/main.c67f1c7b.js",
     "static/js/453.9a0740a9.chunk.js": "/Jinghan/static/js/453.9a0740a9.chunk.js",
+    "static/media/work1.mp4": "/Jinghan/static/media/work1.152700f0c0e5a894f30d.mp4",
+    "static/media/work2.mp4": "/Jinghan/static/media/work2.9d7497555d37c152bf5d.mp4",
+    "static/media/work4.png": "/Jinghan/static/media/work4.73cb919cf4d26db0b893.png",
     "static/media/CV-Jinghan.pdf": "/Jinghan/static/media/CV-Jinghan.8420bacd9ecb4f25cbf5.pdf",
-    "static/media/jinghan.jpg": "/Jinghan/static/media/jinghan.710ab2ea5ae371a38cbf.jpg",
-    "static/media/profile.jpg": "/Jinghan/static/media/profile.f7377e053a5b57327cb1.jpg",
-    "static/media/testimonial3.png": "/Jinghan/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/work2.jpg": "/Jinghan/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/testimonial2.png": "/Jinghan/static/media/testimonial2.39a53f7f092f07f5bceb.png",
-    "static/media/work4.jpg": "/Jinghan/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/Jinghan/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/Jinghan/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/Jinghan/static/media/work3.135e9065694bc13dc31d.jpg",
-    "static/media/testimonial1.png": "/Jinghan/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/certification1.png": "/Jinghan/static/media/certification1.7119b3ed6c76011de050.png",
+    "static/media/work3.png": "/Jinghan/static/media/work3.6e32f8dc8ba83a955cab.png",
+    "static/media/jinghan.jpg": "/Jinghan/static/media/jinghan.af6861090fe1dc15d062.jpg",
+    "static/media/certification2.png": "/Jinghan/static/media/certification2.256c0d52b4f5711a4b2a.png",
+    "static/media/work5.jpg": "/Jinghan/static/media/work5.f805b34798c2c4f891e4.jpg",
     "index.html": "/Jinghan/index.html",
-    "main.856b6981.css.map": "/Jinghan/static/css/main.856b6981.css.map",
-    "main.8228f7c2.js.map": "/Jinghan/static/js/main.8228f7c2.js.map",
+    "main.1daac46d.css.map": "/Jinghan/static/css/main.1daac46d.css.map",
+    "main.c67f1c7b.js.map": "/Jinghan/static/js/main.c67f1c7b.js.map",
     "453.9a0740a9.chunk.js.map": "/Jinghan/static/js/453.9a0740a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.856b6981.css",
-    "static/js/main.8228f7c2.js"
+    "static/css/main.1daac46d.css",
+    "static/js/main.c67f1c7b.js"
   ]
 }
