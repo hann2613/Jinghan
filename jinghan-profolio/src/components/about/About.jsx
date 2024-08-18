@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css";
-import "../qualification/qualification.css";
+import "./qualification.css";
 import CV from "../../assets/CV-Jinghan.pdf";
 
 const About = () => {
