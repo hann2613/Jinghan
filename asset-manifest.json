@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Jinghan/static/css/main.1daac46d.css",
+    "main.css": "/Jinghan/static/css/main.a67ec468.css",
     "main.js": "/Jinghan/static/js/main.c67f1c7b.js",
     "static/js/453.9a0740a9.chunk.js": "/Jinghan/static/js/453.9a0740a9.chunk.js",
     "static/media/work1.mp4": "/Jinghan/static/media/work1.152700f0c0e5a894f30d.mp4",
@@ -13,12 +13,12 @@
     "static/media/certification2.png": "/Jinghan/static/media/certification2.256c0d52b4f5711a4b2a.png",
     "static/media/work5.jpg": "/Jinghan/static/media/work5.f805b34798c2c4f891e4.jpg",
     "index.html": "/Jinghan/index.html",
-    "main.1daac46d.css.map": "/Jinghan/static/css/main.1daac46d.css.map",
+    "main.a67ec468.css.map": "/Jinghan/static/css/main.a67ec468.css.map",
     "main.c67f1c7b.js.map": "/Jinghan/static/js/main.c67f1c7b.js.map",
     "453.9a0740a9.chunk.js.map": "/Jinghan/static/js/453.9a0740a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1daac46d.css",
+    "static/css/main.a67ec468.css",
     "static/js/main.c67f1c7b.js"
   ]
 }
