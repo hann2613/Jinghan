@@ -21,12 +21,7 @@ const Backend = () => {
             </div>
           </div>
 
-          <div className="skills_data">
-            <div>
-              <h3 className="skills_name">Python</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
+         
         </div>
 
         <div className="skills_group">
