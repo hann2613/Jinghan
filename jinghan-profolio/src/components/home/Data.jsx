@@ -56,7 +56,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home_subtitle">Data Engineer<br />Product Management</h3>
+      <h3 className="home_subtitle">Business Data Analysis<br />Project Management</h3>
       <p className="home_description">
         Digital business graduate with strong skills in database analytics and
         front-end development. Familiar with SAP and corporate organizational
